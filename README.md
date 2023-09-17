@@ -1,6 +1,11 @@
-# Multithread AVAX C CHAIN Brute force
+# Multithread AVAX Brute force
 
-Avax C-Chain Bruteforce Node.js script that uses the cluster module to create multiple worker processes to generate random Avax C-Chain keypairs and check if the public address corresponding to the private key is in a Set of full addresses from data.txt. If a match is found, private key and address will be saved inside match.txt
+Avax Bruteforce Node.js script that uses the cluster module to create multiple worker processes to generate random Avax C-Chain keypairs and check if the public address corresponding to the private key is in a Set of full addresses from data.txt. If a match is found, private key and address will be saved inside match.txt
+
+## For people without technical experience you can buy the compiled application for windows from here:
+https://www.buymeacoffee.com/CorvusCodex/e/168098
+
+Keep in mind that a Windows app won’t speed up searching or guarantee success.
 
 ## Installation
 
@@ -17,10 +22,7 @@ Avax C-Chain Bruteforce Node.js script that uses the cluster module to create mu
 4. The Script look for a FULL address from data.txt
 5. If a match is found, the script will save the wallet and its private key (seed) to a file named match.txt and exit.
 
-## For people without technical experience you can buy the compiled application for windows from here:
-[https://www.buymeacoffee.com/CorvusCodex/e/142988](https://www.buymeacoffee.com/CorvusCodex/e/147806?from_page=home)
 
-Keep in mind that a Windows app won’t speed up searching or guarantee success.
 
 ## Dependencies
 This script uses the following dependencies:
